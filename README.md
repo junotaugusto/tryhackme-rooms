@@ -1,7 +1,5 @@
 # TryHackMe Rooms Write-ups
 
-![TryHackMe Banner](https://tryhackme.com/img/share-card.png)
-
 ## Overview
 
 This repository contains my personal collection of notes, scripts, and detailed write-ups for the rooms I have completed on the [TryHackMe](https://tryhackme.com/) platform. The main goal is to document my learning process, reinforce concepts, and serve as a reference for future challenges.
