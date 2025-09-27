@@ -35,12 +35,15 @@ Vamos ver um exemplo de como você pode alterar o valor de hash de um arquivo si
 No Windows:
 ```bash
 PS C:\Users\THM\Downloads> Get-FileHash .\OpenVPN_2.5.1_I601_amd64.msi -Algorithm MD5
-Algorithm Hash                             Path                        
-MD5       D1A008E3A606F24590A02B853E955CF7 C:\Users\THM\Downloads\OpenVPN_2.5.1_I601_amd64.msi
+Algorithm - MD5
+Hash - D1A008E3A606F24590A02B853E955CF7             
+Path - C:\Users\THM\Downloads\OpenVPN_2.5.1_I601_amd64.msi
 ```
 No Mac:
 ```bash
 PS C:\Users\THM\Downloads> echo "AppendTheHash" >> .\OpenVPN_2.5.1_I601_amd64.msi
 PS C:\Users\THM\Downloads> Get-FileHash .\OpenVPN_2.5.1_I601_amd64.msi -Algorithm MD5
-Algorithm   Hash                         Path                                       MD5         9D52B46F5DE41B73418F8E0DACEC5E9F C:\Users\THM\Downloads\OpenVPN_2.5.1_I601_amd64.msi
+Algorithm - MD5
+Hash - 9D52B46F5DE41B73418F8E0DACEC5E9F
+Path - C:\Users\THM\Downloads\OpenVPN_2.5.1_I601_amd64.msi
 ```
