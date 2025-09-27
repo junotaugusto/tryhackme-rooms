@@ -24,17 +24,17 @@ The repository is organized by room name. Each room has its own directory, conta
 * **`files/`:** Any other relevant files, such as wordlists, exploit code, or important screenshots.
 
 Example structure:
-.
-├── TRYHACKME-ROOMS/<br>
-        ├── README.md<br>
-        └── Pyramid-Of-Pain/<br>
-            └── Introduction.md<br>
-            └── screenshot.png<br>
-        └── Cyber-Security/<br>
-            └── Intro.md<br>
-            └── Cyber-Attacks.md<br>
+```bash
+├── TRYHACKME-ROOMS/
+        ├── README.md
+        └── Pyramid-Of-Pain/
+            └── Introduction.md
+            └── screenshot.png
+        └── Cyber-Security/
+            └── Intro.md
+            └── Cyber-Attacks.md
 └── ...<br>
-
+```
 ## Disclaimer
 
 The content in this repository is intended for educational and ethical purposes only. 
