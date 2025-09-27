@@ -31,8 +31,9 @@ Com tantas variações e instâncias de malwares ou ransomwares conhecidos, a ca
 
 Vamos ver um exemplo de como você pode alterar o valor de hash de um arquivo simplesmente adicionando uma string ao final dele usando o comando `echo`:
 
-**Hash do Arquivo (Antes da Modificação)**
+**Hash do Arquivo (Antes da Modificação)**<br>
+```bash
 PS C:\Users\THM\Downloads> Get-FileHash .\OpenVPN_2.5.1_I601_amd64.msi -Algorithm MD5
-Algorithm Hash                             Path                                                 
-_________ ____                             ____                                                 
+Algorithm Hash                             Path                        
 MD5       D1A008E3A606F24590A02B853E955CF7 C:\Users\THM\Downloads\OpenVPN_2.5.1_I601_amd64.msi
+```
