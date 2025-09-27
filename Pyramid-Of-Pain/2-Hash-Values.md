@@ -25,12 +25,14 @@ Na imagem abaixo, encontra-se a hash descrita na imagem acima, que você pode ve
 
 ![Meta Defender Cloud](/Pyramid-Of-Pain/IMAGE-2.png)
 
-Como você deve ter notado, é **muito fácil** identificar um arquivo malicioso se tivermos o hash em nosso arsenal. 
-
-No entanto, para um atacante, modificar um arquivo em apenas um único bit é **trivial**, o que produziria um **valor de hash diferente**. 
+Como você deve ter notado, é **muito fácil** identificar um arquivo malicioso se tivermos o hash em nosso arsenal. No entanto, para um atacante, modificar um arquivo em apenas um único bit é **trivial**, o que produziria um **valor de hash diferente**. 
 
 Com tantas variações e instâncias de malwares ou ransomwares conhecidos, a caça a ameaças (threat hunting) usando hashes de arquivo como `IOC (Indicadores de Comprometimento)` pode se tornar difícil.
 
 Vamos ver um exemplo de como você pode alterar o valor de hash de um arquivo simplesmente adicionando uma string ao final dele usando o comando `echo`:
 
 **Hash do Arquivo (Antes da Modificação)**
+PS C:\Users\THM\Downloads> Get-FileHash .\OpenVPN_2.5.1_I601_amd64.msi -Algorithm MD5
+Algorithm Hash                             Path                                                 
+_________ ____                             ____                                                 
+MD5       D1A008E3A606F24590A02B853E955CF7 C:\Users\THM\Downloads\OpenVPN_2.5.1_I601_amd64.msi
