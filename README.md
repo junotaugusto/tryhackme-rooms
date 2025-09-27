@@ -26,13 +26,13 @@ The repository is organized by room name. Each room has its own directory, conta
 Example structure:
 .
 ├── TRYHACKME-ROOMS/<br>
-    ├── README.md<br>
-    └── Pyramid-Of-Pain/<br>
-        └── Introduction.md<br>
-        └── screenshot.png<br>
-    └── Cyber-Security/<br>
-        └── Intro.md<br>
-        └── Cyber-Attacks.md<br>
+        ├── README.md<br>
+        └── Pyramid-Of-Pain/<br>
+            └── Introduction.md<br>
+            └── screenshot.png<br>
+        └── Cyber-Security/<br>
+            └── Intro.md<br>
+            └── Cyber-Attacks.md<br>
 └── ...<br>
 
 ## Disclaimer
